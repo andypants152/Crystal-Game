@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crystal Game</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link href='https://fonts.googleapis.com/css?family=Indie Flower' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Knewave' rel='stylesheet'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body class="bg-light">
+
+    <header class="bg-dark text-light">
+        <div class="container pl-0 pr-0 pt-3 pb-3">
+            <h1 class="text-center">Crystal Game</h1>
+        </div>
+    </header>
+
+    <main class="bg-light">
+        <div class="container pl-2 pr-2 pt-5">
+            <div class="row">
+                <div class="col-md-6 instructions">
+                    <p>The Crystal Gems are under attack by unknown forces!</p>
+                    <p>You have four gems with a random strength each game</p>
+                    <p>You must reach the strength of the attack exactly to win</p>
+                    <p>Go over and you lose</p>
+                    <p>Click on one of the crystals to increase your strength!</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="row text-center">
+                        <div class="col-sm-3">
+                            <p>Attack Strength: </p>
+                            <p><strong id="attack">0</strong></p>
+                        </div>
+                        <div class="col-sm-3">
+                            <p>Your Strength: </p>
+                            <p><strong id="score">0</strong></p>
+                        </div>
+                        <div class="col-sm-3">
+                            <p>Wins: </p>
+                            <p><strong id="wins">0</strong></p>
+                        </div>
+                        <div class="col-sm-3">
+                            <p>Losses: </p>
+                            <p><strong id="losses">0</strong></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img class="img-fluid" src="assets/images/Amethyst.png" alt="Amethyst">
+                        </div>
+                        <div class="col-sm-3">
+                            <img class="img-fluid" src="assets/images/Rose_Quartz.png" alt="Rose-Quartz">
+                        </div>
+                        <div class="col-sm-3">
+                            <img class="img-fluid" src="assets/images/Ruby.png" alt="Ruby">
+                        </div>
+                        <div class="col-sm-3">
+                            <img class="img-fluid" src="assets/images/Sapphire.png" alt="Sapphire">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script rel="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
